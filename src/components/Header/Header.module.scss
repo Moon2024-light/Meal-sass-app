@@ -1,0 +1,52 @@
+@import '../../styles/_mixins';
+@import '../../styles/_variables';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #3b2f2f;
+
+  @include respond-to(mobile) {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+  gap: 0.5rem;
+
+  img {
+    width: 10px;
+    height: 10px;
+  }
+
+  @include respond-to(mobile) {
+    font-size: 1rem;
+    justify-content: center;
+  }
+}
+
+.nav {
+  a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @include respond-to(mobile) {
+    text-align: center;
+  }
+}

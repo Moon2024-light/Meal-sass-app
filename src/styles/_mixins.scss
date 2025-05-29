@@ -1,0 +1,12 @@
+
+
+@import './_variables';
+
+@mixin respond-to($device) {
+  $size: map-get($breakpoints, $device);
+  @if $size {
+    @media (max-width: $size) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+// _variables.scss
+$breakpoints: (
+  mobile: 480px,
+  tablet: 768px,
+  desktop: 1024px
+);
+
+// Primary Colors
+$color-primary: #0070f3;
+$color-light-primary: #4dabf7;
+$color-secondary: #005bb5;
+
+// Text Colors
+$color-text: #333;
+$color-light-text: #f0f0f0;
+
+// Heading Colors
+$color-heading: #111;
+$color-light-heading: #fff;
+
+// Border Colors
+$color-border: #ccc;
+$color-dark-border: #444;
+
+
+// Background Colors
+$color-background: #f5f5f7;
+$color-light-bg: #c8ad7f;  
+$color-dark-bg: #3b2f2f; 
+
+// Input Background in Dark Mode
+$color-dark-input: #5b3a29; 
+
+
+
